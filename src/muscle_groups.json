@@ -1,0 +1,40 @@
+{
+    "muscleGroups": [
+    {
+      "bodyPart": "legs",
+      "name": "Quads"
+    },
+    {
+      "bodyPart": "arms",
+      "name": "Biceps"
+    },
+    {
+      "bodyPart": "shoulders",
+      "name": "Shoulders"
+    },
+    {
+      "bodyPart": "chest",
+      "name": "Chest"
+    },
+    {
+      "bodyPart": "arms",
+      "name": "Triceps"
+    },
+    {
+      "bodyPart": "back",
+      "name": "Back"
+    },
+    {
+      "bodyPart": "legs",
+      "name": "Glutes"
+    },
+    {
+      "bodyPart": "legs",
+      "name": "Hamstrings"
+    },
+    {
+      "bodyPart": "abs",
+      "name": "Abs"
+    }
+  ]
+}

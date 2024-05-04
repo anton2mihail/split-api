@@ -1,0 +1,684 @@
+{
+    "workoutList": [
+        {
+          "id": 0,
+          "importance": 0.1,
+          "muscleGroup": ["Quads"],
+          "name": "Leg Press",
+          "description": "Feet lower on machine; Focus on depth",
+          "long": "Sit on the machine with your feet firmly on the platform, shoulder-width apart. Push the weight away from you using your heels, then carefully return to the starting position, ensuring your knees don't go past your toes."
+        },
+        {
+          "id": 1,
+          "importance": 0.1,
+          "muscleGroup": ["Quads"],
+          "name": "Sled Push\\Pull",
+          "description": "Increase Volume",
+          "long": "To push, lean into the sled with your arms extended and drive forward with your legs. To pull, attach straps to the sled, hold the other ends, and walk backwards, keeping your back straight and using your whole body to pull."
+        },
+        {
+          "id": 2,
+          "importance": 0.1,
+          "muscleGroup": ["Quads"],
+          "name": "Dumbell Step Up",
+          "description": "Focus on upright posture",
+          "long": "Hold a dumbbell in each hand, stand in front of a raised platform, then step onto it with one foot. Push through your heel to lift your body onto the platform, then step back down and repeat with the other foot."
+        },
+        {
+          "id": 3,
+          "importance": 0.2,
+          "muscleGroup": ["Quads"],
+          "name": "Hacksquat",
+          "description": "Focus on feet out front",
+          "long": "Position yourself on the hack squat machine with your shoulders and back against the pads. Bend at the knees to lower your body, then push back up through your heels while maintaining contact with the pads."
+        },
+        {
+          "id": 4,
+          "importance": 0.2,
+          "muscleGroup": ["Quads"],
+          "name": "Dumbell Bulgarian Split Squat",
+          "description": "Focus on upright posture",
+          "long": "Stand facing away from a bench, holding a dumbbell in each hand. Extend one foot back to rest on the bench. Squat down by bending the front knee and hip, keeping your torso upright. Push back up and repeat, then switch legs."
+        },
+        {
+          "id": 5,
+          "importance": 0.2,
+          "muscleGroup": ["Quads"],
+          "name": "High Bar Back Squat",
+          "description": "",
+          "long": " Place the barbell high on your back, on the trapezius muscle below the neck. Stand with your feet shoulder-width apart, then bend at the hips and knees to lower into a squat. Push back up through your heels to the starting position."
+        },
+        {
+          "id": 6,
+          "importance": 0.2,
+          "muscleGroup": ["Quads"],
+          "name": "Dumbell\\Barbell Reverse Lunge",
+          "description": "Focus on upright posture",
+          "long": "Holding a dumbbell in each hand or a barbell on your upper back, stand straight. Take a step back with one foot and lower your body until the back knee almost touches the floor and your front thigh is parallel to the floor. Push back up through the front heel and return to standing. Repeat on the other side."
+        },
+        {
+          "id": 7,
+          "importance": 0.3,
+          "muscleGroup": ["Quads"],
+          "name": "Front Squat",
+          "description": "",
+          "long": "Position a barbell on your shoulders in front of your body, keeping the elbows up high and the upper arms parallel to the ground. Lower your body into a squat by pushing your hips back and bending your knees. Push back up through your heels to return to the starting position."
+        },
+        {
+          "id": 8,
+          "importance": 0.1,
+          "muscleGroup": ["Biceps"],
+          "name": "Inverted Dumbell Chin Curl",
+          "description": "Not good for loading weight",
+          "long": "Hold a pair of dumbbells with your palms facing towards you (chin), and arms fully extended downwards. Bend at your elbows to curl the weights towards your shoulders, while keeping the elbows close to your body. Lower the weights back down to the starting position."
+        },
+        {
+          "id": 9,
+          "importance": 0.1,
+          "muscleGroup": ["Biceps"],
+          "name": "Zottman Curl",
+          "description": "",
+          "long": "Start by holding dumbbells with your palms facing forward. Curl the weights while keeping your elbows stationary, once at the top, rotate your wrists so that your palms face forward. Lower the weights in this position, then rotate your wrists back for the next rep."
+        },
+        {
+          "id": 10,
+          "importance": 0.1,
+          "muscleGroup": ["Biceps"],
+          "name": "Preacher Curl",
+          "description": "Low Load",
+          "long": "Sit at a preacher bench and hold a barbell or dumbbell with an underhand grip. Rest your upper arms on the pad and curl the weight up towards your shoulders. Lower it back down until your arms are fully extended."
+        },
+        {
+          "id": 11,
+          "importance": 0.1,
+          "muscleGroup": ["Biceps"],
+          "name": "Cable Curl",
+          "description": "Don't hyperextend",
+          "long": "Stand in front of a cable machine with a bar attachment at the bottom setting. Hold the bar with an underhand grip and curl it towards your chest, keeping your elbows close to your body. Return the bar to the starting position."
+        },
+        {
+          "id": 12,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Flex Curl",
+          "description": "Cable curl towards head",
+          "long": "Also known as concentration curls. Sit on the edge of a bench, spread your legs. Hold a dumbbell in one hand, lean forward and place the back of your upper arm on the inside of your same side thigh. Curl the dumbbell towards your chest, pause, then lower it back down."
+        },
+        {
+          "id": 13,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Drag Curl",
+          "description": "Good for long head of bicep",
+          "long": "Stand with a barbell in your hands and your palms facing forward. Keep your elbows stationary and 'drag' the bar up your body by flexing your elbows and pulling your elbows back. Lower the barbell back down to the starting position."
+        },
+        {
+          "id": 14,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Spider Curl",
+          "description": "Facing an incline bench dumbell curl",
+          "long": "Lean forward on an inclined bench holding a barbell or dumbbells with your arms hanging down and palms facing away. Curl the weights towards your shoulders, then lower them back to the starting position."
+        },
+        {
+          "id": 15,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Dumbell Waiter Curl",
+          "description": "Two hands on same dumbell",
+          "long": "Hold a dumbbell vertically (like holding a tray), with one hand under the top weight plate. Keeping your upper arm stationary, curl the dumbbell towards your shoulder. Lower it back down after a brief pause."
+        },
+        {
+          "id": 16,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Incline Dumbell Curl",
+          "description": "Raise from behind body",
+          "long": "Sit back on an incline bench with a dumbbell in each hand, arms fully extended. Keeping your upper arms stationary, curl the dumbbells while contracting your biceps. Return to the starting position."
+        },
+        {
+          "id": 17,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Chin Ups",
+          "description": "",
+          "long": " Grab a pull-up bar with your palms facing towards you and hands about shoulder-width apart. Pull yourself up until your chin is above the bar, then lower yourself back down with control."
+        },
+        {
+          "id": 18,
+          "importance": 0.2,
+          "muscleGroup": ["Biceps"],
+          "name": "Barbell Curl",
+          "description": "",
+          "long": "Stand up straight with a barbell in your hands at shoulder-width, palms facing forward. Keeping your elbows close to your torso, curl the weights while contracting your biceps. Return to the starting position."
+        },
+        {
+          "id": 19,
+          "importance": 0.3,
+          "muscleGroup": ["Biceps"],
+          "name": "Alternating Standing Dumbell Curl",
+          "description": "",
+          "long": " Stand with a dumbbell in each hand, arms fully extended, and palms facing forward. Keeping your upper arms stationary, curl one dumbbell, lower it and then curl the other."
+        },
+        {
+          "id": 20,
+          "importance": 0.1,
+          "muscleGroup": ["Shoulders"],
+          "name": "Plate Pressout",
+          "description": "Lift plate up high",
+          "long": "Hold a weight plate with both hands at chest height. Extend your arms and push the plate out in front of you, then pull it back in."
+        },
+        {
+          "id": 21,
+          "importance": 0.1,
+          "muscleGroup": ["Shoulders"],
+          "name": "Dumbell Cheat Lateral Raise",
+          "description": "Lateral Raise with cheat",
+          "long": "Hold a dumbbell in each hand at your sides. Bend your elbows slightly, then raise your arms out to the sides to shoulder height. You can use a bit of body momentum to help lift the weights."
+        },
+        {
+          "id": 22,
+          "importance": 0.1,
+          "muscleGroup": ["Shoulders"],
+          "name": "Reverse Fly",
+          "description": "Range of motion limitation",
+          "long": " Holding a dumbbell in each hand, bend at the hips until your torso is almost parallel to the floor. Keep a slight bend in your knees. With palms facing each other, lift the weights out to your sides. Lower the weights back down with control."
+        },
+        {
+          "id": 23,
+          "importance": 0.2,
+          "muscleGroup": ["Shoulders"],
+          "name": "Arnold Dumbell Press",
+          "description": "",
+          "long": "Start by holding a dumbbell in each hand at shoulder level with palms facing your body. Raise the dumbbells as you rotate the palms of your hands until they are facing forward. Return to the starting position while rotating your palms back towards you."
+        },
+        {
+          "id": 24,
+          "importance": 0.2,
+          "muscleGroup": ["Shoulders"],
+          "name": "Abduction Row",
+          "description": "Pulling dumbell back and up.",
+          "long": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand. Bend forward at your waist so your chest is leaning forward over your feet. Keep your knees slightly bent and your back straight. Pull the weights up towards your chest, keeping your elbows close to your body and your back straight."
+        },
+        {
+          "id": 25,
+          "importance": 0.2,
+          "muscleGroup": ["Shoulders"],
+          "name": "Dumbell Lateral Raise",
+          "description": "Thumb higher than pinky. Lean forward.",
+          "long": " Stand upright with a dumbbell in each hand at your sides. With a slight bend in your elbows, raise your arms out to the sides until they're at shoulder level, then lower the weights back down with control."
+        },
+        {
+          "id": 26,
+          "importance": 0.2,
+          "muscleGroup": ["Shoulders"],
+          "name": "Hip Hugger",
+          "description": "Arm behind body. Fixing pants motion.",
+          "long": "Hold a dumbbell in each hand at your sides, palms facing inward. Keeping your back straight, lift the weights by driving your elbows up and back until they're level with your shoulders. Lower the weights back down."
+        },
+        {
+          "id": 27,
+          "importance": 0.3,
+          "muscleGroup": ["Shoulders"],
+          "name": "Dumbell Front Raise",
+          "description": "Don't raise over head",
+          "long": "Hold a dumbbell in each hand at your sides, palms facing your body. Keeping your arms straight, lift the weights in front of you until they're at shoulder height. Lower them back down with control."
+        },
+        {
+          "id": 28,
+          "importance": 0.3,
+          "muscleGroup": ["Shoulders"],
+          "name": "Cable Lateral Raise",
+          "description": "Don't raise over head",
+          "long": "Stand sideways to a cable machine, hold the cable handle in the hand farthest from the machine with your arm relaxed by your side. Raise your arm to shoulder height, then lower it back down with control."
+        },
+        {
+          "id": 29,
+          "importance": 0.3,
+          "muscleGroup": ["Shoulders"],
+          "name": "Rear Delt Row",
+          "description": "Simmilar to lean forward face pull",
+          "long": "Holding a dumbbell in each hand, bend forward at your hips with your knees slightly bent. Pull the weights up towards your chest, squeezing your shoulder blades together, then lower the weights back down."
+        },
+        {
+          "id": 30,
+          "importance": 0.3,
+          "muscleGroup": ["Shoulders"],
+          "name": "Overhead Press",
+          "description": "For both dumbell and barbell.",
+          "long": "Stand with a barbell or dumbbells at shoulder height, palms facing forward. Press the weights overhead until your arms are fully extended, then lower them back down."
+        },
+        {
+          "id": 31,
+          "importance": 0.1,
+          "muscleGroup": ["Chest"],
+          "name": "Basic Push Up",
+          "description": "",
+          "long": "Start in a high plank position, with your hands under your shoulders and feet hip-width apart. Lower your body until your chest is just above the ground while bringing elbows back along your body, then push yourself back up to the starting position."
+        },
+        {
+          "id": 32,
+          "importance": 0.1,
+          "muscleGroup": ["Chest"],
+          "name": "Floor Dumbell Fly",
+          "description": "",
+          "long": "Lie on your back on the floor with a dumbbell in each hand, arms extended straight up. Lower the weights out to your sides in a wide arc until your elbows touch the floor, then bring the weights back together at the top."
+        },
+        {
+          "id": 33,
+          "importance": 0.1,
+          "muscleGroup": ["Chest"],
+          "name": "Underhand Dumbell Bench Press",
+          "description": "",
+          "long": "Lie on a bench with a dumbbell in each hand, palms facing towards the ceiling. Lower the weights to your chest, then press them back up to the starting position."
+        },
+        {
+          "id": 34,
+          "importance": 0.1,
+          "muscleGroup": ["Chest"],
+          "name": "Twisting Push Up",
+          "description": "",
+          "long": "Perform a standard push up, but as you push up, rotate your body to one side and lift that shoulder higher than the other side while turing your head to the higher side. Alternate sides with each rep."
+        },
+        {
+          "id": 35,
+          "importance": 0.2,
+          "muscleGroup": ["Chest"],
+          "name": "Cable Crossover Fly",
+          "description": "",
+          "long": "Stand between two pulleys set above head height. Hold a pulley handle in each hand and step forward so the cables are extended. Bring your hands down and in front of your body, then return to the starting position."
+        },
+        {
+          "id": 36,
+          "importance": 0.2,
+          "muscleGroup": ["Chest"],
+          "name": "Lying Cable Bench Press",
+          "description": "Wide cables",
+          "long": "Lie on a flat bench placed between a cable station. Hold a cable handle in each hand and press the handles up until your arms are fully extended, then lower them back down."
+        },
+        {
+          "id": 37,
+          "importance": 0.3,
+          "muscleGroup": ["Chest"],
+          "name": "Dips",
+          "description": "",
+          "long": "Hold your body at arm's length above parallel bars. Lower yourself down until your elbows are at a 90-degree angle, then push yourself back up to the starting position."
+        },
+        {
+          "id": 38,
+          "importance": 0.3,
+          "muscleGroup": ["Chest"],
+          "name": "Heavy One Arm Crossover",
+          "description": "Like 3D chest",
+          "long": "Stand between a cable machine with the pulley set to the top. Hold the handle with one hand, palm facing forward. Pull the handle down and across your body to your opposite hip, then return to the start."
+        },
+        {
+          "id": 39,
+          "importance": 0.3,
+          "muscleGroup": ["Chest"],
+          "name": "Low Incline Dumbell Bench Press",
+          "description": "30-45 Degree incline.",
+          "long": "Lie on an inclined bench with a dumbbell in each hand, palms facing away from you. Lower the weights to the sides of your chest, then press them back up to the starting position."
+        },
+        {
+          "id": 40,
+          "importance": 0.3,
+          "muscleGroup": ["Chest"],
+          "name": "Bench Press",
+          "description": "Barbell or Dumbell.",
+          "long": "Lie on a flat bench holding a barbell with hands slightly wider than shoulder-width apart. Lower the bar to your chest, then press it back up to the start."
+        },
+        {
+          "id": 41,
+          "importance": 0.1,
+          "muscleGroup": ["Triceps"],
+          "name": "Cobra Push Up",
+          "description": "Move up into cobra position.",
+          "long": "Start face down on the floor with your hands under your shoulders. Press your upper body up until your arms are fully extended, leaving your thighs close to the ground but not on the ground. Lower yourself back and down."
+        },
+        {
+          "id": 42,
+          "importance": 0.1,
+          "muscleGroup": ["Triceps"],
+          "name": "Reverse Grip Tricep Pushdown",
+          "description": "Holding underneath.",
+          "long": "Stand in front of a high pulley with a bar attachment. Hold the bar with a reverse grip (palms facing up) at shoulder level. Push the bar down until your arms are fully extended, then return to the starting position."
+        },
+        {
+          "id": 43,
+          "importance": 0.1,
+          "muscleGroup": ["Triceps"],
+          "name": "Overhead Rope Extension",
+          "description": "Reverse facepull.",
+          "long": "Stand or sit with a rope attached to a high pulley starting with your elbows at shoulder height and bent at 90 degrees behind your head. With your palms facing each other, extend your arms and the rope overhead and past your head,then return to the starting position."
+        },
+        {
+          "id": 44,
+          "importance": 0.1,
+          "muscleGroup": ["Triceps"],
+          "name": "JM Press",
+          "description": "Cross between skull crusher and dumbell bench press.",
+          "long": "Lie on a flat bench with a barbell at arm's length above your chest. Lower the bar to your chest, slightly moving the elbows forward, then extend your arms back to the start."
+        },
+        {
+          "id": 45,
+          "importance": 0.2,
+          "muscleGroup": ["Triceps"],
+          "name": "Dumbell Kickback",
+          "description": "Elbow behind body.",
+          "long": "Hold a dumbbell in one hand and lean forward at your waist. Keep your elbow at a 90-degree angle and extend your arm back until it's fully extended, then bring it back to the starting position."
+        },
+        {
+          "id": 46,
+          "importance": 0.2,
+          "muscleGroup": ["Triceps"],
+          "name": "Incline Dumbell Powerbomb",
+          "description": "",
+          "long": "Lie on an incline bench holding a dumbbell in each hand above your chest. Bend at the elbows and lower the weights to the sides of your head, then extend your arms back to the starting position."
+        },
+        {
+          "id": 47,
+          "importance": 0.2,
+          "muscleGroup": ["Triceps"],
+          "name": "Rocking Tricep Pushdowns",
+          "description": "Leaning back during motion.",
+          "long": "Stand in front of a high pulley with a bar or rope attachment. Push the bar or rope down until your arms are fully extended while also leaning back and pulling your arms back and apart, then return to the starting position."
+        },
+        {
+          "id": 48,
+          "importance": 0.2,
+          "muscleGroup": ["Triceps"],
+          "name": "Weighted Upright Dip",
+          "description": "",
+          "long": "While wearing a weight belt, grip the bars of a dip station and lower your body until your arms are bent at a 90-degree angle, then push yourself back up to the starting position."
+        },
+        {
+          "id": 49,
+          "importance": 0.3,
+          "muscleGroup": ["Triceps"],
+          "name": "Close Grip Bench Press",
+          "description": "",
+          "long": "Lie on a flat bench with a barbell held with a close grip (hands shoulder-width apart). Lower the bar to your chest, then press it back up to the starting position."
+        },
+        {
+          "id": 50,
+          "importance": 0.3,
+          "muscleGroup": ["Triceps"],
+          "name": "Lying Tricep Extension",
+          "description": "Barbell overhead dip.",
+          "long": "Lie on a flat bench holding a barbell or dumbbell with arms extended. Bend at the elbows to lower the weight to your forehead, then extend your arms back to the starting position."
+        },
+        {
+          "id": 51,
+          "importance": 0.1,
+          "muscleGroup": ["Back"],
+          "name": "Standing Dumbell Bent Over Row",
+          "description": "One arm at a time.",
+          "long": "Stand with a dumbbell in each hand and lean forward at the waist. Pull the weights up towards your chest, keeping your elbows close to your body, then lower them back down."
+        },
+        {
+          "id": 52,
+          "importance": 0.1,
+          "muscleGroup": ["Back"],
+          "name": "Straight Arm Pushdown",
+          "description": "",
+          "long": "Stand in front of a high pulley with a bar or rope attachment. With your arms fully extended, push the bar or rope down to your thighs while also extending outwards at the bottom, then return to the starting position."
+        },
+        {
+          "id": 53,
+          "importance": 0.1,
+          "muscleGroup": ["Back"],
+          "name": "Dumbell Pull Over",
+          "description": "Focus on stretch and lats.",
+          "long": "Lie on a flat bench holding a dumbbell with both hands over your chest. With a slight bend in your elbows, lower the weight behind your head, then bring it back to the starting position."
+        },
+        {
+          "id": 54,
+          "importance": 0.1,
+          "muscleGroup": ["Back"],
+          "name": "Seated Cable Row",
+          "description": "",
+          "long": "Sit at a cable row machine with your feet on the footrests and knees slightly bent. Pull the handle towards your waist, then return to the starting position."
+        },
+        {
+          "id": 55,
+          "importance": 0.2,
+          "muscleGroup": ["Back"],
+          "name": "Meadows Row",
+          "description": "Single arm barbell ground lift.",
+          "long": "Stand sideways to a landmine or barbell in a corner, grip the end of the barbell with one hand. Pull the weight up to your waist, then lower it back down."
+        },
+        {
+          "id": 56,
+          "importance": 0.2,
+          "muscleGroup": ["Back"],
+          "name": "One Arm High Cable Row",
+          "description": "",
+          "long": "Stand sideways to a cable machine, hold the handle in one hand with arm fully extended. Pull the handle to your side while keeping your arm close to your body, then return to the starting position."
+        },
+        {
+          "id": 57,
+          "importance": 0.2,
+          "muscleGroup": ["Back"],
+          "name": "Lat Pulldown",
+          "description": "Elbows in front of you.",
+          "long": "Sit at a lat pulldown machine and grab the bar with an overhand grip. Pull the bar down to your chest, then return it to the starting position."
+        },
+        {
+          "id": 58,
+          "importance": 0.2,
+          "muscleGroup": ["Back"],
+          "name": "Lat Pulldown + Twist Down",
+          "description": "",
+          "long": "Do a regular lat pulldown but as you pull the bar to your chest, pull one side further down while flexing the lats. Return to the starting position."
+        },
+        {
+          "id": 59,
+          "importance": 0.2,
+          "muscleGroup": ["Back"],
+          "name": "Dead Row",
+          "description": "Explosive movement.",
+          "long": "Hold a barbell in front of you with an overhand grip. Bend at your hips and knees and lower your torso until it’s almost parallel to the floor. Pull the bar to your upper abs, then lower it back to the starting position."
+        },
+        {
+          "id": 60,
+          "importance": 0.3,
+          "muscleGroup": ["Back"],
+          "name": "Weighted Pull Up",
+          "description": "",
+          "long": "With a weight belt on, grab a pull-up bar with your palms facing away. Pull yourself up until your chin is above the bar, then lower yourself back down."
+        },
+        {
+          "id": 61,
+          "importance": 0.3,
+          "muscleGroup": ["Back"],
+          "name": "Barbell Row",
+          "description": "",
+          "long": "Hold a barbell with an overhand grip. Bend at your hips and knees and lower your torso until it’s almost parallel to the floor. Pull the bar to your upper abs, then lower it back to the starting position."
+        },
+        {
+          "id": 62,
+          "importance": 0.1,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Dumbell Reverse Sprinter Lunge",
+          "description": "",
+          "long": "Hold a dumbbell in each hand. Take a step back with one foot and lower your body until the back knee almost touches the floor. Drive the back knee up as if sprinting, then return it to the starting position. Repeat on the other side."
+        },
+        {
+          "id": 63,
+          "importance": 0.1,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Standing Cuff Kickback",
+          "description": "Straight leg.",
+          "long": "Stand holding a dumbbell in each hand, bend your torso forward and bend your elbows at 90 degrees. Extend your arms back until they're fully extended, then return to the starting position."
+        },
+        {
+          "id": 64,
+          "importance": 0.1,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Dumbell Single Leg RDL",
+          "description": "",
+          "long": "Stand with a dumbbell in each hand. Lift one foot off the ground and hinge forward at your waist, keeping the lifted leg in line with your body. Return to the starting position and repeat on the other side."
+        },
+        {
+          "id": 65,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Cable Single Leg RDL",
+          "description": "",
+          "long": "Stand facing a low pulley with a cable in one hand. Perform the same movement as the dumbbell single leg RDL, but the resistance will be from the cable."
+        },
+        {
+          "id": 66,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Seated Hamstring Curl",
+          "description": "",
+          "long": "Sit on a leg curl machine with your legs under the padded lever. Pull your heels towards your buttocks, then return to the starting position."
+        },
+        {
+          "id": 67,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Banded Step Through",
+          "description": "",
+          "long": "Step into a resistance band and place it around your ankles. Step forward with one foot, then the other, then step backwards in the same way."
+        },
+        {
+          "id": 68,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Kettle Bell Swing",
+          "description": "",
+          "long": "Stand with your feet hip-width apart, hold a kettlebell in both hands between your legs. Hinge at your hips and swing the kettlebell up to shoulder height, then swing it back down."
+        },
+        {
+          "id": 69,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Cable Pull Through",
+          "description": "Simmilar motion to kettlebell swing.",
+          "long": "Stand facing away from a low pulley with a rope attachment between your legs. Hinge at your hips and pull the rope forward through your legs, then return to the starting position."
+        },
+        {
+          "id": 70,
+          "importance": 0.2,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Dumbell Leaning Forward Step Up",
+          "description": "",
+          "long": "Hold a dumbbell in each hand and place one foot on a bench. Lean your torso forward and step up onto the bench, keeping your body leaning forward."
+        },
+        {
+          "id": 71,
+          "importance": 0.3,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Glute Ham Raise",
+          "description": "Lean forward and over.",
+          "long": "Position yourself in a GHD machine with your feet secured and your hips off the pad. Lower your body forward as far as possible, then use your glutes and hamstrings to pull yourself back up."
+        },
+        {
+          "id": 72,
+          "importance": 0.3,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Barbell RDL",
+          "description": "",
+          "long": "Stand with a barbell in front of you, hands shoulder-width apart. Keeping your back straight, hinge at your hips to lower the barbell along your legs, then return to the starting position."
+        },
+        {
+          "id": 73,
+          "importance": 0.3,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Low Bar Squat",
+          "description": "",
+          "long": "Position a barbell lower on your back, around the middle of your shoulder blades. Squat down until your hips are lower than your knees, then push back up to the starting position."
+        },
+        {
+          "id": 74,
+          "importance": 0.3,
+          "muscleGroup": ["Glutes", "Hamstrings"],
+          "name": "Barbell Hip Thrust",
+          "description": "",
+          "long": "Sit on the ground with your upper back against a bench, feet flat on the floor. Place a padded barbell in your lap. Push through your heels to lift your hips until they're in line with your body, then lower back down."
+        },
+        {
+          "id": 75,
+          "importance": 0.1,
+          "muscleGroup": ["Abs"],
+          "name": "Hanging Leg Raise",
+          "description": "Bring butt up.",
+          "long": "Hang from a pull-up bar and raise your legs until your body forms a 90-degree angle, then lower your legs back down."
+        },
+        {
+          "id": 76,
+          "importance": 0.1,
+          "muscleGroup": ["Abs"],
+          "name": "Ab Wheel Rollout",
+          "description": "Don't go all the way back.",
+          "long": "Kneel on the floor and hold an ab wheel. Roll the wheel out in front of you, keeping your arms extended, then pull yourself back to the starting position."
+        },
+        {
+          "id": 77,
+          "importance": 0.1,
+          "muscleGroup": ["Abs"],
+          "name": "Hanging Knee Raise",
+          "description": "Tilt pelvis up.",
+          "long": "Hang from a pull-up bar and raise your knees to your chest, then lower them back down."
+        },
+        {
+          "id": 78,
+          "importance": 0.2,
+          "muscleGroup": ["Abs"],
+          "name": "Hanging Corkscrew",
+          "description": "Focus on pelvis alone.",
+          "long": "Hang from a pull-up bar and raise your knees to one side of your body, twisting at the waist. Lower them back down and repeat on the other side."
+        },
+        {
+          "id": 79,
+          "importance": 0.2,
+          "muscleGroup": ["Abs"],
+          "name": "Single Sided Slow Farmer Carry",
+          "description": "",
+          "long": "Hold a heavy weight in one hand and walk for a set distance or time, keeping your core tight and your posture straight."
+        },
+        {
+          "id": 80,
+          "importance": 0.2,
+          "muscleGroup": ["Abs"],
+          "name": "Side Bridge Twist",
+          "description": "Twist up from plank.",
+          "long": "Start in a side plank position. Rotate your torso and reach your top arm under your body, then return to the starting position."
+        },
+        {
+          "id": 81,
+          "importance": 0.2,
+          "muscleGroup": ["Abs"],
+          "name": "Levitation Crunch",
+          "description": "Only lift shoulder blades up.",
+          "long": "Lie on your back with your legs extended and hands behind your head. Lift your upper body and legs off the ground, crunching your abs, then lower back down."
+        },
+        {
+          "id": 82,
+          "importance": 0.2,
+          "muscleGroup": ["Abs"],
+          "name": "Swiper",
+          "description": "Like leg raise but focus on pelvis curl.",
+          "long": "Start in a plank position. Swipe one hand under your body and towards the opposite foot, then return to the plank position. Repeat on the other side."
+        },
+        {
+          "id": 83,
+          "importance": 0.3,
+          "muscleGroup": ["Abs"],
+          "name": "Gymnast Tuck",
+          "description": "Focus on folding trunk at pelvis.",
+          "long": "Hang from a pull-up bar. Tuck your knees into your chest and hold, then extend back to the hanging position."
+        },
+        {
+          "id": 84,
+          "importance": 0.3,
+          "muscleGroup": ["Abs"],
+          "name": "Sliding Tuck",
+          "description": "Side twist back.",
+          "long": "Start in a high plank position with your feet on sliders. Pull your knees into your chest, then slide your feet back to the starting position."
+        }
+      ]
+}
