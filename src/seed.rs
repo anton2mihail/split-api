@@ -3,50 +3,63 @@ use serde::Deserialize;
 use std::fs::File;
 use std::path::Path;
 use rocket::serde::json::serde_json;
+use std::io::BufReader;
+use std::error::Error;
 
-#[derive(Debug, Deserialize)]
+#[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 pub struct MuscleGroup {
     name: String,
     body_part: String,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 pub struct Exercise {
     id: i32,
-    main_muscle_group: String,
-    long_description: String,
+    muscle_group: Vec<String>,
     importance: f32,
     name: String,
     description: String,
     long: String,
-    user_id: i32,
 }
 
-fn load_defaults() -> (Vec<MuscleGroup>, Vec<Exercise>) {
-    let muscle_groups_file_path = Path::new("./muscle_groups.json");
-    let workout_lists_file_path = Path::new("./workout_list.json");
+//Result<User, Box<dyn Error>>
 
-    let file = File::open(muscle_groups_file_path).expect("error while opening");
+fn load_workout_list() -> Result<Vec<Exercise>, Box<dyn Error>> {
+    let workout_lists_file_path = Path::new("./src/workout_list.json");
+    let file2 = File::open(workout_lists_file_path)?;
+    let reader2 = BufReader::new(&file2);
 
-    let muscle_groups: Vec<MuscleGroup> = serde_json::from_reader(&file)
-    .expect("error while reading or parsing");
+    let workout_list = serde_json::from_reader(reader2)?;
 
-    drop(file);
+    Ok(workout_list)
+}
 
-    let file2 = File::open(workout_lists_file_path).expect("error while opening");
+fn load_muscle_groups() -> Result<Vec<MuscleGroup>, Box<dyn Error>> {
+    let muscle_groups_file_path = Path::new("./src/muscle_groups.json");
+    
 
-    let workout_list: Vec<Exercise> = serde_json::from_reader(&file2)
-    .expect("error while reading or parsing");
+    let file = File::open(muscle_groups_file_path)?;
+    let reader = BufReader::new(&file);
 
-    drop(file2);
+    let muscle_groups = serde_json::from_reader(reader)?;
 
-    return (muscle_groups, workout_list);
+    Ok(muscle_groups)
 }
 
 pub fn seed_db() -> Result<()> {
     let conn = Connection::open("theSplit.db")?;
+
+    conn.execute(
+        "DROP TABLE IF EXISTS muscle_group",()
+    )?;
+    conn.execute(
+        "DROP TABLE IF EXISTS user",()
+    )?;
+    conn.execute(
+        "DROP TABLE IF EXISTS exercise",()
+    )?;
 
     conn.execute(
         "CREATE TABLE IF NOT EXISTS muscle_group (
@@ -82,19 +95,23 @@ pub fn seed_db() -> Result<()> {
         (),
     )?;
 
-    let defaults = load_defaults();
+    let muscle_groups = load_muscle_groups().unwrap();
+    let exercises = load_workout_list().unwrap();
 
-    for muscle_group in &defaults.0 {
+    println!("{:#?}", muscle_groups);
+    println!("{:#?}", exercises);
+
+    for muscle_group in &muscle_groups {
         conn.execute(
             "INSERT INTO muscle_group (name, body_part) values (?1, ?2)",
             &[&muscle_group.name, &muscle_group.body_part],
         )?;
     }
 
-    for exercise in &defaults.1 {
+    for exercise in &exercises {
         conn.execute(
             "INSERT INTO muscle_group (name, importance, main_muscle_group, description, long_description, user_id) values (?1, ?2, ?3, ?4, ?5, ?6)",
-            &[&exercise.name, &exercise.importance.to_string(), &exercise.main_muscle_group, &exercise.description, &exercise.long_description, &exercise.user_id.to_string()],
+            &[&exercise.name, &exercise.importance.to_string(), &exercise.muscle_group[0], &exercise.description, &exercise.long, 0.to_string()],
         )?;
     }
 

@@ -1,5 +1,4 @@
-{
-    "workoutList": [
+[
         {
           "id": 0,
           "importance": 0.1,
@@ -681,4 +680,3 @@
           "long": "Start in a high plank position with your feet on sliders. Pull your knees into your chest, then slide your feet back to the starting position."
         }
       ]
-}

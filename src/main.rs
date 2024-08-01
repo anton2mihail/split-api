@@ -18,7 +18,7 @@ fn catalogue() -> &'static str {
 
 #[launch]
 fn rocket() -> _ {
-    seed::seed_db();
+    let _ = seed::seed_db();
     rocket::build()
         .mount("/", routes![index])
         .mount("/", routes![catalogue])

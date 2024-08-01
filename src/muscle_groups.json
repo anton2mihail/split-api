@@ -1,5 +1,4 @@
-{
-    "muscleGroups": [
+[
     {
       "bodyPart": "legs",
       "name": "Quads"
@@ -37,4 +36,3 @@
       "name": "Abs"
     }
   ]
-}
